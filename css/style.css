@@ -1,0 +1,155 @@
+:root {
+    --background-btn: rgba(21, 122, 140, 1);
+    --color-btn: rgba(38, 13, 51, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Style do body padrao para todos */
+body {
+    background-image: url(../images/img-fundo.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: sticky;
+    background-repeat: repeat;
+}
+
+.avatar{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 5px;
+}
+
+/* Style do logomarca */
+
+.logomarca {
+    display: block;
+    height: 181px;
+    width: 509px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+/* Style do Btn esta servido para tela inicial e tela de cadastro */
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    background-color: var(--background-btn);
+    color: var(--color-btn);
+    width: 300px;
+    height: auto;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 19pt;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 15px;
+    border-radius: 25px
+}
+
+.btn-primary:hover {
+    background-color: rgba(38, 13, 51, 1);
+    color: rgba(21, 122, 140, 1);
+}
+
+/* Styles do card - tela inicial */
+
+.card-inicial {
+    background-color: rgba(169, 164, 179, 1);
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* CSS dos links */
+
+a {
+    text-decoration: none;
+    color: rgba(38, 13, 51, 1);
+    text-align: center;
+    justify-content: center;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgba(21, 122, 140, 1);
+}
+
+/* CSS CADASTRO */
+.card-cadastro {
+    background-color: rgba(169, 164, 179, 1);
+}
+
+.logo-cadastro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 300px;
+    height: 90px;
+}
+
+.form-control {
+    background-color: rgba(169, 164, 179, 1);
+}
+
+input {
+    display: block;
+    border-radius: 10px;
+    border: 2px solid #4d4d4d;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+textarea {
+    border: 2px solid #4d4d4d;
+    /* Cor da borda */
+    border-radius: 10px;
+    background-color: rgba(169, 164, 179, 1);
+    /* Cor de fundo */
+    transition: background-color 0.5s ease-in-out;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus textarea:focus {
+    outline: none;
+    border-color: #6c757d;
+    /* Cor da borda ao clicar */
+}
+
+label {
+    color: rgba(38, 13, 51, 1);
+    font-size: large;
+}
+
+/* CSS DO LOGIN */
+
+.logo-login {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.custom-error-message {
+  background-color: rgba(255, 0, 0, 0.2); /* Fundo vermelho claro para o erro */
+  color: red; /* Texto em vermelho */
+  border-color: #dc3545; /* Cor da borda vermelha */
+}
