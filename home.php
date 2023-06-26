@@ -181,7 +181,7 @@ if (mysqli_num_rows($select) > 0) {
                                 perguntas</b></button>
                     </a>
 
-                    <a href="login.php?logout=<?php echo $user_id; ?>">
+                    <a href="index.php?logout=<?php echo $user_id; ?>">
                         <button type="button" class="btn btn-danger" style="border-radius: 25px;"><b>Sair</b></button>
                     </a>
 
